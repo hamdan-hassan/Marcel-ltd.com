@@ -1,0 +1,36 @@
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.gallery {
+  border: 1px black solid;
+}
+
+#up-arrow {
+font-size: 30px;
+height: 50px;
+width: 50px;
+color: #fff;
+background: lightgreen;
+border: none;
+position: fixed;
+bottom: 40px;
+right: 40px;
+cursor: pointer;
+outline: none;
+}
+
+.arrow-up {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(2%) hue-rotate(154deg) brightness(110%) contrast(100%);
+}
+
+.highlight {
+
+	border: lightgreen 3px solid;
+}
+
